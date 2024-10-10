@@ -1,5 +1,27 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-nytimes-gziphandler (1.1.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+  * Standards-Version: 4.4.1
+  * DH & compat to version 12.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 03 Dec 2019 09:14:31 +1100
+
+golang-github-nytimes-gziphandler (1.0.1-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Dmitry Smirnov ]
+  * New upstream release.
+  * Added watch file.
+  * Testsuite: autopkgtest-pkg-go
+  * Standards-Version: 4.1.4; Priority: optional
+  * debhelper & compat to version 11.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 03 Dec 2019 09:13:53 +1100
+
+golang-github-nytimes-gziphandler (0.0~git20160419.0.63027b2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #829471).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 04 Jul 2016 02:58:10 +1000
